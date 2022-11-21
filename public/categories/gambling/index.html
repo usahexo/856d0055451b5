@@ -86,7 +86,7 @@
 				    
 				    <li><a href="/categories/Casino-Wildz/" class="animsition-link">Casino Wildz<small>(4)</small></a></li>
 				    
-				    <li><a href="/categories/Gambling/" class="animsition-link">Gambling<small>(3)</small></a></li>
+				    <li><a href="/categories/Gambling/" class="animsition-link">Gambling<small>(4)</small></a></li>
 				    
 				    <li><a href="/categories/Real-Estate/" class="animsition-link">Real Estate<small>(2)</small></a></li>
 				    
@@ -315,7 +315,29 @@ $('#intro').find('img').each(function(){
       
 </body>
 </html>
-<!-- Theme scripts -->
+  </div>
+</footer>
+
+<!-- ============================ END Footer =========================== -->
+      <!-- Load our scripts -->
+<!-- Resizable 'on-demand' full-height hero -->
+<script type="text/javascript">
+    var resizeHero = function () {
+        var hero = $(".cover,.heightblock"),
+            window1 = $(window);
+        hero.css({
+            "height": window1.height()
+        });
+    };
+
+    resizeHero();
+
+    $(window).resize(function () {
+        resizeHero();
+    });
+</script>
+<script src="/js/plugins.min.js"></script><!-- Bootstrap core and concatenated plugins always load here -->
+<script src="/js/scripts.js"></script><!-- Theme scripts -->
 
 
 <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
